@@ -5,7 +5,7 @@ apt update && apt install -y wget
 
 #Install python along with dependency
 apt install -y python
-apt uninstall -y python   # gcloud 3.5-3.8 python
+apt remove -y python   # gcloud 3.5-3.8 python
 
 
 # Install python 3.8 to install Google Cloud SDK
