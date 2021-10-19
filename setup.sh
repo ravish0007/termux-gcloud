@@ -3,6 +3,11 @@
 # Install wget
 apt update && apt install -y wget
 
+#Install python along with dependency
+apt install -y python
+apt uninstall -y python   # gcloud 3.5-3.8 python
+
+
 # Install python 3.8 to install Google Cloud SDK
 wget https://raw.githubusercontent.com/Termux-pod/termux-pod/main/arch64/python/python-3.8.6/python_3.8.6_aarch64.deb -O python_3.8.deb
 apt remove -y python
