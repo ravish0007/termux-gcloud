@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Install wget
-apt update && apt install -y wget
+# Install wget and openssh
+apt update && apt install -y wget openssh
 
 #Install python along with dependency
 apt install -y python
