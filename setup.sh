@@ -8,7 +8,7 @@ apt install -y python
 apt remove -y python   # gcloud requires 3.5-3.8 python
 
 # Install python 3.8 to install Google Cloud SDK
-wget https://raw.githubusercontent.com/Termux-pod/termux-pod/main/arch64/python/python-3.8.6/python_3.8.6_aarch64.deb -O python_3.8.deb
+wget  https://github.com/Termux-pod/termux-pod/raw/main/aarch64/python/python-3.8.6/python_3.8.6_aarch64.deb -O python_3.8.deb
 apt remove -y python
 dpkg -i python_3.8.deb
 
